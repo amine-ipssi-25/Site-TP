@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: solid;
+}
+.navbar{
+    background-color: rgb(37, 37, 37);
+    width: 30%;
+    color: white;
+}
+.contenu{
+    width: 70% ;
+}
+.logo > img{
+    width: 50%;
+    border-radius: 50%;
+    border: solid;
+    margin: 10%;
+}   
+.titre{
+    color: orange;
+    justify-content: center;
+    align-items: center;
+}
+.point{
+    border : solid;
+    border-color: black;
+    padding: 3%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: orange;
+}
+.progressbar{
+    height: 20px;
+    width: 60%;
+    border: 2px solid black;
+  }
+.on{
+    background-color: orange;
+    height: 100%;
+}
+.off{
+    background-color: white;
+}
+.p2{
+    width: 50%;
+}
+.p3{
+    width: 100%;
+}
+.p1{
+    width: 90%;
+}
+

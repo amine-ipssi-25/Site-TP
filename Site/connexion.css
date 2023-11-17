@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    color: white;
+    height: 100%;
+    padding: 2%;
+    border-bottom: solid 2px white;
+}
+
+.logo h1 {
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.formulaire-container {
+
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+
+
+.input-container {
+    margin-bottom: 11px;
+    width: 25%;
+}
+.input-container h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 8%;
+    font-size: 55px;
+}
+.input-container input{
+    border-radius: 5px;
+    height: 50%;
+    margin: 2%;
+
+}
+.input-container input,
+.input-container select { 
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+.input-container .password-input{
+    padding:10px;
+    font-size: 16px;
+
+}
+
+.input-container ::placeholder {
+    font-weight: 600;
+}
+
+.input-container input {
+    margin-bottom: 10px;
+ }
+
+.Button{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+.Button a{
+    color: white;
+    text-decoration: none;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+  }
+h1 {
+    margin: 0;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+.social-icons a img {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 15px;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.Inscription{
+    display: flex;
+    justify-content: center;
+
+}
+.Inscription a {
+    color: #096ec8;
+    padding-left: 5px;
+}

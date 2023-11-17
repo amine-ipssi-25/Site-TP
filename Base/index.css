@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-image: url("/Assets/fondsite.jpeg");
+}
+#titre {
+    background-color: beige;
+}
+#nom{
+    
+    background-color: beige;
+}
+.container-card{
+    display : flex;
+    justify-content: space-evenly;
+}
+.image > img{
+    width: 30%;
+}
+.t1{
+    background-color: blue;
+}
+.t2{
+    background-color: red;
+}
+.t3{
+    background-color: green;
+}
